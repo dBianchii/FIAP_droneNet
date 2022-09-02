@@ -58,6 +58,7 @@ header::after {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    font-weight: bold;
 }
 
 #topNavigation li:hover {
@@ -66,6 +67,8 @@ header::after {
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
 
 #coverImage {
@@ -95,6 +98,7 @@ header::after {
     font-size: 12px;
     padding-right: 15px;
     padding-left: 15px;
+    font-weight: bold;
 }
 
 .redBanner li a:hover {
@@ -104,6 +108,8 @@ header::after {
     padding-bottom: 20px;
     padding-right: 15px;
     padding-left: 15;
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
 
 #redNavigation {
@@ -121,6 +127,7 @@ h3 {
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .galeriasFw {
@@ -131,7 +138,6 @@ h3 {
 }
 
 .galeria-droneGift {
-    background-position: 260px 0px;
     float: right;
 }
 
@@ -145,7 +151,7 @@ h3 {
     width: 300px;
     float: left;
     margin: 5px;
-    height: 374px;
+    height: 376px;
     border: 2px solid #1B8E99;
 }
 
@@ -231,13 +237,17 @@ h3 {
     justify-content: center;
 }
 
-.cartImage {
-    background: url(/img/galerias.fw.png);
-    height: 60px;
+.cartWhiteBg{
     width: 72px;
-    background-position: -30px 360px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
+    height: 63px;
+}
+
+.cartImage {
+    background-position: -30px 360px;
+    background-color: white;
+    margin: auto;
 }
 
 .greySeparator {
