@@ -141,6 +141,10 @@ h3 {
     float: right;
 }
 
+.blueSeparator {
+    background-color: #1B8E99;
+}
+
 .lojaVirtual1 {
     height: 395px;
     width: 100%;
@@ -155,6 +159,15 @@ h3 {
     border: 2px solid #1B8E99;
 }
 
+.servicoItem {
+    height: 307px;
+}
+
+.droneLojaItem {
+    height: 280px;
+    margin: 0;
+}
+
 .redLojaItem {
     border: 2px solid #660000;
 }
@@ -164,7 +177,7 @@ h3 {
     margin: 3px;
     margin-left: 5px;
     margin-right: 5px;
-    height: 30px
+    height: 30px;
 }
 
 .redBg {
@@ -179,12 +192,17 @@ h3 {
     margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: #1B8E99;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.droneTitle .whiteText {
+    color: white;
 }
 
 .dronesImages {
-    background: url(/img/galerias3.fw.png);
     height: 180px;
-    width: 90%;
     margin: auto;
 }
 
@@ -200,14 +218,20 @@ h3 {
     background-position: 268px 0px
 }
 
-.lojaItem p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.droneDescricao {
+    font-family: Tahoma, Verdana, Segoes, sans-serif;
+    font-size: 13px;
+    margin: 10px;
+    color: #1B8E99;
+}
+
+.redDroneDescricao {
+    color: #660000
 }
 
 .pricingBox {
     background-color: #1B8E99;
-    height: 90px;
+    height: 95px;
 }
 
 .pricingBox h2 {
@@ -237,7 +261,7 @@ h3 {
     justify-content: center;
 }
 
-.cartWhiteBg{
+.cartWhiteBg {
     width: 72px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
@@ -277,29 +301,70 @@ h3 {
     margin-top: 8px;
     margin-left: 8px;
     position: relative;
+    font-size: 17px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .descricaoServico {
     text-align: left !important;
     margin: 10px;
+    font-size: 13px;
+    color: #660000;
+}
+
+.blueText {
+    color: #1B8E99
 }
 
 .servicoFooting {
     height: 10px;
-    margin-top: 97px;
+    margin-top: 11px;
+}
+
+.greenServicoFooting {
+    margin-top: 42px
+}
+
+#footerDrone2 {
+    margin-left: 257px
+}
+
+#footerDrone3 {
+    margin-left: 118px;
 }
 
 .innerFooter1 {
     width: 100%;
-    height: 90px
+    height: 96px;
+    background-color: #1B8E99;
+}
+
+.innerFooter1LogoDiv {
+    width: 182px;
+    height: 100px;
+    display: inline-flex;
+    float: left;
+}
+
+.innerFooter1DescriptionDiv {
+    width: 622px;
+    height: 100%;
+}
+
+#footerDescription {
+    color: white;
+    margin: auto;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 45px;
+}
+
+.innerFooter2 img {
+    display: inline;
 }
 
 .innerFooter2 {
     width: 100%;
-    height: 30px
-}
-
-.innerFooter3 {
-    width: 100%;
-    height: 30px
+    height: 26px;
+    background-color: #660000;
 }
