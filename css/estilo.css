@@ -23,7 +23,7 @@ header::after {
 }
 
 #container {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #content {
@@ -34,6 +34,8 @@ header::after {
 .logo {
     margin-left: 20px;
     position: relative;
+    bottom: 23px;
+    outline: none;
 }
 
 #topNavigation {
@@ -73,6 +75,7 @@ header::after {
 
 #coverImage {
     margin-top: 0;
+    display: block;
 }
 
 .redBanner {
@@ -141,6 +144,10 @@ h3 {
     float: right;
 }
 
+.redSeparator {
+    background-color: #660000
+}
+
 .blueSeparator {
     background-color: #1B8E99;
 }
@@ -148,7 +155,6 @@ h3 {
 .lojaVirtual1 {
     height: 395px;
     width: 100%;
-    margin-top: 41px;
 }
 
 .lojaItem {
@@ -247,14 +253,27 @@ h3 {
 }
 
 .pricingDiv {
-    width: 62%;
+    width: 67%;
     height: 100%;
     float: left;
 }
 
+.pricingDiv h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pricingDiv p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .cartImageContainer {
     height: 100%;
-    width: 38%;
+    width: 33%;
     float: left;
     display: flex;
     align-items: center;
@@ -326,11 +345,17 @@ h3 {
 }
 
 #footerDrone2 {
-    margin-left: 257px
+    margin-left: 280px
 }
 
 #footerDrone3 {
     margin-left: 118px;
+}
+
+#bortolaImg {
+    margin-top: -32px;
+    position: absolute;
+    margin-left: 44px;
 }
 
 .innerFooter1 {
@@ -360,11 +385,23 @@ h3 {
 }
 
 .innerFooter2 img {
-    display: inline;
+    left: 1142px;
+    bottom: -1251px;
+    position: absolute;
 }
 
 .innerFooter2 {
     width: 100%;
     height: 26px;
     background-color: #660000;
+}
+
+#profBortolaText {
+    display: inline;
+    position: relative;
+    left: 632px;
+    top: 3px;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: white;
 }
